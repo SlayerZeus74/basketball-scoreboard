@@ -1,0 +1,111 @@
+@font-face {
+    font-family: digit;
+    src: url(Cursed_Timer_ULiL/CursedTimerULiL.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-family: digit;
+    background: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container-main{
+    background-color: #1B244A;
+    
+    border-radius: 15px;
+    margin: 10px auto;
+    max-width: 575px;
+    height: 440px;
+    border: 3px groove rgb(71, 196, 246);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:  30px;
+    height: 36px;
+    width: 149px;
+    margin-top: 68px;
+}
+
+.container-mid{
+    display: flex;
+    /* height: 400px; */
+    margin-bottom: 50px;
+    align-items: flex-end;
+}
+
+
+.home-score{
+    /* font-family: ; */
+    background-color: #080001;
+    color: #F94F6D;
+    border-radius: 5px;
+    margin-top: 21px;
+    border-radius: 5px;
+    border: 3px groove rgb(71, 196, 246);
+    height: 120px;
+    width: 155px;
+    font-family: digit;
+    line-height: 126.67px;
+    font-size: 90px;
+    text-align: center;
+
+}
+
+
+
+.add-points{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    height: 45px;
+    width: 155px;
+    text-align: center; 
+}
+
+.btn{
+   
+    border: 2px solid #9AABD8;
+    list-style: none;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    margin-right: 4px;
+    cursor: pointer;
+    font-family: digit;
+    background-color: #1B244A;
+}
+
+.container-btn{
+    border: 3px groove rgb(71, 196, 246);
+    background:#1B244A;
+    color: #9AABD8;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: grab;
+}
+
